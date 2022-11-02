@@ -3,6 +3,7 @@ import pygame
 from pygame.locals import *
 import math
 import random
+import time
 
 # 2 - Initialize the game
 pygame.init()
@@ -86,7 +87,7 @@ while running:
     for badguy in badguys:
         if badguy[0]<-64:
             badguys.pop(index)
-        badguy[0]-=7
+        badguy[0]-=2
         # 6.3.1 - Attack castle
         badrect=pygame.Rect(badguyimg.get_rect())
         badrect.top=badguy[1]
@@ -109,6 +110,7 @@ while running:
             index1+=1
         # 6.3.3 - Next bad guy
         index+=1
+    
     for badguy in badguys:
         screen.blit(badguyimg, badguy)
     # 6.4 - Draw clock
