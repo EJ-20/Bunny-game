@@ -6,7 +6,7 @@ Visual representation of the game:
 
 ![image](https://user-images.githubusercontent.com/67335103/199546467-60d02d09-b94a-4734-93ca-ebad35964f79.png)
 
-Shows game over when the health of the castles are 0
+Shows game over when the health of the castles are 0 along with the player accuracy.
 
 ![image](https://user-images.githubusercontent.com/67335103/199546734-9ef4e9bb-10f9-4d8c-8ddc-936b801298ac.png)
 
